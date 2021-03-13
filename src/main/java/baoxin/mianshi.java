@@ -6,6 +6,7 @@ package baoxin;
  */
 public class mianshi {
         public static void main(String[] args){
+            int d =123;
             int m = 12;
             int c = 12;
             int n = 1; // 要求的n
