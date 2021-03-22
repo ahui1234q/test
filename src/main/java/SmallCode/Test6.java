@@ -17,16 +17,6 @@ import java.util.ArrayList;
  */
 public class Test6 {
     public static void main(String[] args) {
-        for (int t = 0;t<=20;t++){
-            System.out.printf("t的%d,%d\n",t,f(t));
-        }
 
-    }
-    public static long f(long i){
-        if((i==0)||(i==1)){
-            return i;
-        }else{
-            return f(i-1)+f(i-2);
-        }
     }
 }
